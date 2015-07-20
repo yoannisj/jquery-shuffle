@@ -53,7 +53,7 @@ var SHUFFLE = 'shuffle';
 var ALL_ITEMS = 'all';
 var FILTER_ATTRIBUTE_KEY = 'groups';
 var DEFAULT_SCALE = 1;
-var CONCEALED_SCALE = 0.001;
+var CONCEALED_SCALE = 0.9;
 
 // Underscore's throttle function.
 function throttle(func, wait, options) {
